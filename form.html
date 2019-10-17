@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>네이버 회원가입</title>
+        <title>검정치마 회원가입</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="최연주" />
+
+        @font-face {
+            <style type="text/css" media="screen, print"> @font-face {
+                font-family: "DungGeunMo";
+                src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff");
+              }
+              body { font-family: "DungGeunMo", serif }
+              
+            </style>
     </head>
-    <body>
-        <h1>네이버 회원가입</h1>
+    <body bgcolor="black">
+
+            <ul class="navi" align="right">
+                    <a href="html.part1.html">메인</a> &nbsp;
+                    <a href="form.html">회원가입</a> &nbsp;
+                    <a href="html.part2.html">정규 1집</a> &nbsp;
+                    <a href="html.part3.html">정규 2집</a> &nbsp;
+                    <a href="html.part4.html">싱글 앨범</a> &nbsp;
+                    <a href="html.part5.html">3집 Part.1</a> &nbsp;
+                    <a href="html.part6.html">3집 Part.2</a> &nbsp;
+                    <a href="">퀴즈</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </ul>
+
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br />
+
+        <span style="color: white ">
+        <div style="text-align:center">
+        <h1>검정치마 회원가입</h1>
         <form>
                 <label for="id"><strong>아이디</strong></label> <br />
                 <input name="id" placeholder="아이디를 입력하세요" />
@@ -18,9 +46,9 @@
 
                 <label for="name"><strong>이름</strong></label> <br />
                 <input name="name" placeholder="" /> <br /><br />
-
+          
                 <label for="date of birth"><strong>생년월일</strong></label> <br />
-                <input name="date of birth" placeholder="년(4자)">
+                <input name="date of birth" placeholder="년(4자)" />
                 <select>
                         <option>월</option>
                         <option>1</option>
@@ -36,18 +64,18 @@
                         <option>11</option>
                         <option>12</option>
                 </select>
-                <input name="date of birth" placeholder="일"> <br /><br />
+                <input name="date of birth" placeholder="일" /> <br /><br />
 
-                <labal for="sex"><strong>성별</strong></label> <br />
+                <label for="sex"><strong>성별</strong></label> <br />
                 <select>
                     <option>여성</option>
                     <option>남성</option>
                 </select> <br /><br />
 
                 <label for="e-mail"><strong>본인 확인 이메일</strong>(선택)</label> <br />
-                <input name="e-mail" placeholder="선택입력"> <br /><br />
+                <input name="e-mail" placeholder="선택입력" /> <br /><br />
                 
-                <labal for="cell number"><strong>휴대전화</strong></label> <br />
+                <label for="cell number"><strong>휴대전화</strong></label> <br />
                 <select>
                     <option>대한민국 +82</option>
                 </select> 
@@ -59,9 +87,9 @@
                     <option>KT</option>
                 </select> <br />
 
-                <input name="cell number" placeholder="전화번호 입력">
+                <input name="cell number" placeholder="전화번호 입력" />
                 <input type="button" value="인증번호 받기" onclick="alert('인증번호가 발송되었습니다.')" /> <br />
-                <input name="cell number" placeholder="인증번호 입력하세요.">
+                <input name="cell number" placeholder="인증번호 입력하세요." />
                 <input type="button" value="인증번호 확인" onclick="alert('인증번호가 확인되었습니다.')" /> <br /> <br />
 
                 <labal for="q"><strong>가입경로</strong></labe> <br />
@@ -72,15 +100,26 @@
                   <labal for="q">기타</labe>
                   <input type="radio" name="bt1" /> <br /> <br />
 
-                <input type="button" value="가입하기" onclick="alert('가입완료 되었습니다.')" />
+                <input type="button" value="가입하기" onclick="alert('가입완료 되었습니다.')" /> <br /><br />
 
-                <a href="index.html">돌아오기</a>
+                <style type="text/css">
+                    a{
+                     text-decoration: none;
+                     color :white;
+                    }
+                </style>
+
+                <a href="html_part1.html">돌아가기</a>
+
+            
 
                 
 
 
-
+        
 
         </form>
+        </div>
+        </span>
     </body>
 </html>
